@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.shapingfutures.or.ke/</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Core Pages -->
+    <url>
+        <loc>https://www.shapingfutures.or.ke/about</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/contact</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+     <url>
+        <loc>https://www.shapingfutures.or.ke/gallery</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+     <url>
+        <loc>https://www.shapingfutures.or.ke/get-involved</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Individual Program Pages -->
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/mtoto-na-elimu</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/sanitary-donation</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/life-skills</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/clothes-donation</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/dance</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/programs/feeding</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Section (if applicable) -->
+    <url>
+        <loc>https://www.shapingfutures.or.ke/get-involved/volunteer</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/get-involved/events</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.shapingfutures.or.ke/get-involved/donation</loc>
+        <lastmod>2024-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>

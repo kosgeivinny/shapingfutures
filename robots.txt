@@ -1,0 +1,27 @@
+# Allow all search engines to access the site
+User-agent: *
+
+# Disallow search engines from accessing sensitive directories
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /config/
+Disallow: /database/
+
+# Prevent indexing of duplicate or unnecessary pages
+Disallow: /*.php$
+Disallow: /*?*
+
+# Allow search engines to access important assets
+Allow: /image-gallery/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Allow search engines to follow index.php redirects
+Allow: /index.php
+
+# Specify the location of the sitemap for better indexing
+Sitemap: https://www.shapingfutures.or.ke/sitemap.xml
+*6

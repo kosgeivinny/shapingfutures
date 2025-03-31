@@ -1,0 +1,36 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Force HTTPS for all requests
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect non-www to www (only handle HTTP_HOST)
+RewriteCond %{HTTP_HOST} ^shapingfutures\.or\.ke [NC]
+RewriteRule ^(.*)$ https://www.shapingfutures.or.ke/$1 [R=301,L]
+
+# Ensure directory index loads index.php by default
+DirectoryIndex index.php
+
+# Redirect direct access to index.php to the clean folder URL
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^(.*)index\.php$ /$1 [R=301,L]
+
+# Remove .php from URLs
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/.]+)$ $1.php [NC,QSA,L]
+
+# Redirect old .php URLs to clean URLs
+RewriteCond %{THE_REQUEST} \.php [NC]
+RewriteRule ^(.*)\.php$ /$1 [R=301,L]
+
+# Redirect /index to clean /
+RewriteRule ^(.*)/index$ /$1/ [R=301,L]
+
+# Prevent direct access to .htaccess and sensitive files
+<FilesMatch "^(\.htaccess|\.env|\.htpasswd)$">
+    Require all denied
+</FilesMatch>
+
+# Ensure Google Indexes HTTPS Versions Only
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
